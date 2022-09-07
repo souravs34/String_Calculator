@@ -43,9 +43,7 @@ int main(){
         getline(cin,str);
        
         StrCal obj;
-        int result = obj.calculate(str);
-
-        if(result >= 0) cout<<"Result of string : "<<result<<endl;
+        if(obj.calculate(str) >= 0) cout<<"Result of string : "<<obj.calculate(str)<<endl;
     }
     return 0;
 }
